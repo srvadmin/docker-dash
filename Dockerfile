@@ -3,7 +3,7 @@ MAINTAINER Sadykh Sadykhov <sadykh.sadykhov@ya.ru>
 
 RUN groupadd -r dash && useradd -r -m -g dash dash
 
-ENV DASHD_VERSION	0.12.2.1
+ENV DASHD_VERSION	0.12.2.2
 RUN set -ex \
 	&& apt-get update \
 	&& apt-get install -qq --no-install-recommends dirmngr gosu gpg wget \
